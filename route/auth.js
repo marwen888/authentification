@@ -92,3 +92,7 @@ const convertUser =({name , email , _id})=>({
     email ,
     _id 
 })
+//register sera add user avec salt etc
+//middleware dans tout les crudes
+//auth dans tout les cruds
+//new middleware test role else next 

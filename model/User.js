@@ -13,6 +13,10 @@ const userschema = new Schema({
     email : {
         type : String  ,
         required : true
-    }
+    },
+     role: {
+        type: Number,
+        default: 0, //0=user, 1=admin
+    },
 })
 module.exports= mongoose.model('user'  , userschema)
